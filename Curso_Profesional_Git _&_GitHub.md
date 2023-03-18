@@ -77,3 +77,8 @@
  * **git checkout <branch name>:** se mueve a la rama especificada.
  * **git merge <branch name>:** fusiona la rama actual con la rama especificada y produce un nuevo commit de esta fusión.
  * **git branch:** lista las ramas generadas.
+
+#### ***Ejmeplo***
+
+![](Screenshot2023-03-17200815png_Page1.png "")
+

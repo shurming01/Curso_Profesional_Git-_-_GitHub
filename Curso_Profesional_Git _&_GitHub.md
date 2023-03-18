@@ -82,4 +82,4 @@
 
 ![](Screenshot2023-03-17200815png_Page1.png "")
 
-> Para ver con más detalle el ejemplo puever el siguiente [PDF](https://acortar.link/BW04WB).
+>> Para ver con más detalle el ejemplo puever el siguiente [PDF](https://acortar.link/BW04WB).

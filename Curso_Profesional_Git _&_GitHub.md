@@ -1,7 +1,7 @@
 
 ![](git1.jpg "")
-
-### ***¿Por qué usar un sistema de control de versiones como Git?***
+# 1
+ ### ***¿Por qué usar un sistema de control de versiones como Git?***
 
 
  Un sistema de control de versiones como Git nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
@@ -38,7 +38,7 @@
 
  * **git config --list:** lista las configuraciones.
  
- ![](GITGITHUB-21de2769-fd6c-4835-b078-04128276f416f.jpg "")
+  ![](GITGITHUB-21de2769-fd6c-4835-b078-04128276f416f.jpg "")
  
 
 
@@ -57,7 +57,7 @@
  * **git checkout <commit/branch> <filename>:** permite regresar al estado en el cual se realizó un commit o branch especificado, pero no elimina lo que está en el staging area.
  * **git checkout – <filePath>:** deshacer cambios en un archivo en estado modified (que ni fue agregado a staging)
 
-### ***git rm y git reset***
+ ### ***git rm y git reset***
  
  #### ***git rm:*** 
  Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Esto quiere decir que si necesitamos recuperar el archivo solo debemos “viajar en el tiempo” y recuperar el último commit antes de borrar el archivo en cuestión.
@@ -77,7 +77,7 @@
 
  * **git reset HEAD:** No borra los archivos ni sus modificaciones, solo los saca del área de staging, de forma que los últimos cambios de estos archivos no se envíen al último commit. Si se cambia de opinión se los puede incluir nuevamente con git add.
 
-### ***Ramas o Branches en git***
+ ### ***Ramas o Branches en git***
  Al crear una nueva rama se copia el último commit en esta nueva rama. Todos los cambios hechos en esta rama no se reflejarán en la rama master hasta que hagamos un merge.
 
  * **git branch <new branch>:** crea una nueva rama.
@@ -91,3 +91,62 @@
 
  > Para ver con más detalle  el ejemplo vea el siguiente pdf
  >>Link   [PDF](https://acortar.link/BW04WB).
+
+# 2
+ ### ***¿Qué es Git?***
+ Git es un sistema de control de versiones distribuido, diseñado por Linus Torvalds. Está pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+ * Git está optimizado para guardar cambios de forma incremental.
+
+ * Permite contar con un historial, regresar a una versión anterior y agregar funcionalidades.
+
+ * Lleva un registro de los cambios que otras personas realicen en los archivos.
+
+ Git fue diseñado para operar en un entorno Linux. Actualmente, es multiplataforma, es decir, es compatible con Linux, MacOS y Windows. En la máquina local se encuentra Git, se utiliza bajo la terminal o línea de comandos y tiene comandos como merge, pull, add, commit y rebase, entre otros.
+
+ ### ***Características de Git***
+
+ * Git almacena la información como un conjunto de archivos.
+
+ * No existen cambios, corrupción en archivos o cualquier alteración sin que Git lo sepa.
+
+ * Casi todo en Git es local. Es difícil que se necesiten recursos o información externos, basta con los recursos locales con los que cuenta.
+
+ * Git cuenta con 3 estados en los que es posible localizar archivos: Staged, Modified y Committed.
+
+ ### ***Para qué proyectos sirve Git***
+ Con Git se obtiene una mayor eficiencia usando archivos de texto plano, ya que con archivos binarios no puede guardar solo los cambios, sino que debe volver a grabar el archivo completo ante cada modificación, por mínima que sea, lo que hace que incremente demasiado el tamaño del repositorio.
+
+ “Guardar archivos binarios en el repositorio de Git no es una buena práctica, únicamente deberían guardarse archivos pequeños (como logos) que no sufran casi modificaciones durante la vida del proyecto. Los binarios deben guardarse en un CDN”.
+
+ ### ***¿Qué es un sistema de control de versiones?***
+
+ El SCV o VCS (por sus siglas en inglés) es un sistema que registra los cambios realizados sobre un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas llevar el historial del ciclo de vida de un proyecto, comparar cambios a lo largo del tiempo, ver quién los realizó o revertir el proyecto entero a un estado anterior.
+
+ Cualquier tipo de archivo que se encuentre en un ordenador puede ponerse bajo control de versiones.
+
+ ![](Que_es_Git-8f5b6780-47b4-4ff7-9a8a-6fdec5a0f1af.jpg "")
+
+ ### ***¿En qué se diferencia de Github?***
+
+ Github es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Se emplea principalmente para la creación de código fuente de programas de computadora.
+
+ Puede considerarse a Github como la red social de código para los programadores y en muchos casos es visto como un curriculum vitae, pues aquí se guarda el portafolio de proyectos de programación.
+
+ ### ***Características de Github***
+
+ * GitHub permite alojar proyectos en repositorios de forma gratuita y pública, pero tiene una forma de pago para privados.
+
+ * Puedes compartir fácilmente tus proyectos.
+
+ * Permite colaborar para mejorar los proyectos de otros y a otros mejorar o aportar a los tuyos.
+
+ * Ayuda a reducir significativamente los errores humanos, a tener un mejor mantenimiento de distintos entornos y a detectar fallos de una forma más rápida y eficiente.
+
+ * Es la opción perfecta para poder trabajar en equipo en un mismo proyecto.
+
+ * Ofrece todas las ventajas del sistema de control de versiones Git, pero también tiene otras herramientas que ayudan a tener un mejor control de los proyectos.
+
+ > Video sobre Git & GitHub
+ >>Link [Youtube](https://youtu.be/DinilgacaWs).
+ 

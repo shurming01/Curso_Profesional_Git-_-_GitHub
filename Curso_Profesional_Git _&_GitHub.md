@@ -1,5 +1,5 @@
 
-![](git1.jpg "San Juan Mountains")
+![](git1.jpg "")
 
 ### ***¿Por qué usar un sistema de control de versiones como Git?***
 
@@ -13,6 +13,7 @@
  El comando para almacenar definitivamente todos los cambios que por ahora viven en el staging area es `git commit`. También podemos guardar un mensaje para recordar muy bien qué cambios hicimos en este commit con el argumento `-m "Mensaje del commit"`.
  * Por último, si queremos mandar nuestros commits a un servidor remoto, un lugar donde todos podamos conectar nuestros proyectos, usamos el comando `git push`.
 
+![](GITGITHUB-21de2769-fd6c-4835-b078-04128276f16f.jpg "")
 #### ***Comandos básicos de git***
 
  * **git init:**  inicializa un repositorio de GIT en la carpeta donde se ejecute el comando.
@@ -32,6 +33,10 @@
  * **git config --global user.name <Nombre como se verá en los commits>:** configura un nombre.
 
  * **git config --list:** lista las configuraciones.
+ 
+ ![](GITGITHUB-21de2769-fd6c-4835-b078-04128276f416f.jpg "")
+ 
+
 
 #### ***Analizar cambios en los archivos de un proyecto Git***
 
